@@ -1,0 +1,77 @@
+/Users/Anoop/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling autolink.c
+compiling buffer.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling html_smartypants.c
+compiling markdown.c
+compiling rc_markdown.c
+rc_markdown.c: In function ‘rb_redcarpet_md_render’:
+rc_markdown.c:124: warning: pointer targets in passing argument 2 of ‘sd_markdown_render’ differ in signedness
+rc_markdown.c:127: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+compiling rc_render.c
+rc_render.c: In function ‘rndr_blockcode’:
+rc_render.c:52: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:52: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_blockquote’:
+rc_render.c:58: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_raw_block’:
+rc_render.c:64: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_header’:
+rc_render.c:70: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_list’:
+rc_render.c:82: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_listitem’:
+rc_render.c:89: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_paragraph’:
+rc_render.c:96: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_table’:
+rc_render.c:102: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:102: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_tablerow’:
+rc_render.c:108: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_tablecell’:
+rc_render.c:134: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_autolink’:
+rc_render.c:146: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_codespan’:
+rc_render.c:153: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_double_emphasis’:
+rc_render.c:159: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_emphasis’:
+rc_render.c:165: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_image’:
+rc_render.c:171: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:171: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:171: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_link’:
+rc_render.c:183: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:183: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c:183: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_raw_html’:
+rc_render.c:189: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_triple_emphasis’:
+rc_render.c:195: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_strikethrough’:
+rc_render.c:201: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_superscript’:
+rc_render.c:207: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_entity’:
+rc_render.c:216: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rndr_normal_text’:
+rc_render.c:222: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+rc_render.c: In function ‘rb_redcarpet_smartypants_render’:
+rc_render.c:413: warning: pointer targets in passing argument 2 of ‘sdhtml_smartypants’ differ in signedness
+rc_render.c:414: warning: pointer targets in passing argument 1 of ‘rb_enc_str_new’ differ in signedness
+compiling stack.c
+linking shared-object redcarpet.bundle
+
+make  install
+/usr/bin/install -c -m 0755 redcarpet.bundle /Users/Anoop/help/vendor/bundle/gems/redcarpet-2.1.0/ext/redcarpet/.gem.20140214-6660-kfoocp
+installing default redcarpet libraries
